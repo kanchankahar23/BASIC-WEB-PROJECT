@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+    width: 575px;
+    height: 625px;
+    background-color:lemonchiffon;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       }
+  #height,
+  #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+  }
+  #results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color:black;
+  }
+  
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+    font-size: 25px;
+  }
+  #box{
+    width: 375px;
+    height: 425px;
+    background-color:rgb(170, 208, 246);
+    padding-left: 30px;
+  }
+  
+  h1,h2 {
+    padding-left: 15px;
+    padding-top: 25px;
+  }
+</style>
+<body>
+      <div class="container">
+        <div id="box">
+        <h1>BMI Calculator</h1>
+          <p><label>Height in CM: </label><input type="text" id="height" /></p>
+          <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
+          <button>Calculate</button>
+          <div id="results"></div>
+        </div>
+      </div>
+</body>
+<script src="bmi.js"></script>
+</html>
