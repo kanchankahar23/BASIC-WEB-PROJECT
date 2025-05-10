@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+}
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  height:400px ;
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1,p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#number {
+  display: flex;
+  gap: 10px;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+#newgame {
+  display: none;
+   padding: 10px 16px;
+  background-color:darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+button {
+  padding: 10px 16px;
+  background-color:darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
