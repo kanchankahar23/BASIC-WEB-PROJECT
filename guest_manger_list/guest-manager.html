@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest manager</title>
+</head>
+<style>
+    body{
+        font-family: Arial;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f9dc5c;
+    }
+    h1{
+        background-color: #c2eabd;
+    }
+    button{
+        background-color: rgb(239, 103, 103);
+    }
+    form input,form button{
+        display: block;
+        margin: 10px 0;
+        padding:8px;
+        width: 100%;
+    }
+    li{
+        margin: 10px 0;
+    }
+    #delete{
+        margin: 10px 0;
+        padding:8px;
+        width: 20%;
+    }
+</style>
+<body>
+
+    <div class="container">
+        <form id="box">
+        <h1>Guest manager list</h1>
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="tel"  id="contact" placeholder="Contact">
+        <button id="add">Add guests</button>
+        <div class="result">
+        </form>
+           <ul id="list">
+
+           </ul>
+        </div>
+
+        
+    </div>
+</body>
+<script src="guest.js"></script>
+</html>
